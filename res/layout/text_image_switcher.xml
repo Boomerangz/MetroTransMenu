@@ -1,0 +1,33 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:padding="3dp" 
+    android:layout_margin="3dp"
+    android:background="#ffffff">
+    
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <ImageSwitcher
+            android:id="@+id/Switcher"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+             android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true" />
+            <TextView
+                android:id="@+id/text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="4dp"
+                android:layout_marginRight="4dp"
+            android:layout_centerVertical="true"
+                android:text="Large Text"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    </RelativeLayout>
+
+</FrameLayout>
